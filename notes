@@ -1,0 +1,6 @@
+1 - (What) What I want to happen:  When I click each button, the main header should change to the color the button says.
+2 - (How) What triggers this event:  A button click
+3 - (When) When this needs to happen: after the DOM loads ('DOMContentLoaded'), --- (THE BUTTON NEEDS TO EXIST!)
+Steps:
+
+1. add click listeners to the buttons

@@ -4,34 +4,42 @@
     <meta charset="utf-8">
     <title>Fun With JS Events</title>
     <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="main.css">
   </head>
 
   <body>
-    <h3>EVENTS!!!!</h3>
-    <div class="main">
-      <h6>Main Div</h6>
-    </div>
+    <div id="main-container">
+      <div class="main-child">
 
-    <div class="button-div">
-      <button id="button-1" type="button" name="button">CLICK ME!!</button>
-      <button type="button" name="button">NO, CLICK ME!!</button>
-      <button type="button" name="button">FORGET THOSE GUYS CLICK ME!!!!</button>
-    </div>
-<br>
-<br>
-    <div class="new-joke-div">
-      <form id="new-joke-form" action="index.html" method="post">
-        <input id="joke-title-input" type="text" name="title" placeholder="joke title"><br>
-        <textarea id="joke-content-input" type="" name="content" placeholder="content"></textarea><br>
-        <input type="submit" name="" value="Submit that joke!"><br>
-      </form>
-    </div>
+            <h3 id="main-header">EVENTS!!!!</h3>
+            <div class="main">
+              <h6 >Main Div</h6>
+            </div>
 
-    <div id="jokes-list-div">
-      <ul id="jokes-list">
+            <div id="button-div">
+              <button style="color: red;" id="button-red" type="button" name="button">CLICK ME RED!!</button>
+              <button style="color: blue;" id="button-blue" type="button" name="button">NO, CLICK ME BLUE!!</button>
+              <button style="color: green;" id="button-green" type="button" name="button">FORGET THOSE GUYS CLICK ME GREEN!!!!</button>
+            </div>
 
-      </ul>
+            <br>
+            <br>
+
+            <div class="new-joke-div">
+              <form id="new-joke-form" action="index.html" method="post">
+                <input id="joke-title-input" type="text" name="title" placeholder="joke title"><br>
+                <textarea id="joke-content-input" type="" name="content" placeholder="content"></textarea><br>
+                <input type="submit" name="" value="Submit that joke!"><br>
+              </form>
+            </div>
+
+            <div id="jokes-list-div">
+              <ul id="jokes-list">
+
+              </ul>
+            </div>
+
+      </div>
     </div>
-
   </body>
 </html>
